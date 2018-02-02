@@ -1,0 +1,85 @@
+[*]
+[*] GTKWave Analyzer v3.3.79 (w)1999-2017 BSI
+[*] Wed Nov 22 13:44:02 2017
+[*]
+[dumpfile] "/home/daniel/repos/ucr/lab_digitales/lab_5/tests/leds/test_leds.vcd"
+[dumpfile_mtime] "Wed Nov 22 13:43:11 2017"
+[dumpfile_size] 1757261442
+[savefile] "/home/daniel/repos/ucr/lab_digitales/lab_5/tests/leds/leds.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-30.794374 161040 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test_leds.
+[treeopen] test_leds.uut.
+[treeopen] test_leds.uut.CPU.
+[sst_width] 205
+[signals_width] 214
+[sst_expanded] 1
+[sst_vpaned_height] 330
+@28
+test_leds.clk
+test_leds.reset
+@23
+test_leds.led[7:0]
+@28
+[color] 3
+test_leds.uut.CPU.stall_gl
+@24
+test_leds.uut.CPU.InstructionRom.iAddress[31:0]
+@28
+test_leds.uut.CPU.branch_taken_gl
+@200
+-operatons
+@24
+test_leds.uut.CPU.operation_fd[5:0]
+test_leds.uut.CPU.operation_rf[5:0]
+test_leds.uut.CPU.operation_ex[5:0]
+test_leds.uut.CPU.operation_me[5:0]
+[color] 2
+test_leds.uut.CPU.read0_fd[4:0]
+[color] 2
+test_leds.uut.CPU.read1_fd[4:0]
+[color] 2
+test_leds.uut.CPU.read2_fd[4:0]
+[color] 3
+test_leds.uut.CPU.destination_rf[4:0]
+[color] 3
+test_leds.uut.CPU.destination_ex[4:0]
+[color] 3
+test_leds.uut.CPU.destination_me[4:0]
+test_leds.uut.CPU.Bubbler.current_address[31:0]
+test_leds.uut.CPU.Bubbler.overwrite_address[31:0]
+@200
+-reg file
+@28
+test_leds.uut.CPU.write_enable_gl
+@24
+test_leds.uut.CPU.Register_file.visR1[31:0]
+test_leds.uut.CPU.Register_file.visR2[31:0]
+test_leds.uut.CPU.Register_file.visR3[31:0]
+test_leds.uut.CPU.Register_file.visR4[31:0]
+test_leds.uut.CPU.Register_file.visFP[31:0]
+test_leds.uut.CPU.Register_file.visRA[31:0]
+test_leds.uut.CPU.Register_file.visSP[31:0]
+@200
+-ALU
+@24
+test_leds.uut.CPU.Alu.operation[5:0]
+test_leds.uut.CPU.Alu.operand0[31:0]
+test_leds.uut.CPU.Alu.operand1[31:0]
+test_leds.uut.CPU.Alu.operand2[31:0]
+test_leds.uut.CPU.Alu.inmediate[15:0]
+test_leds.uut.CPU.Alu.result[31:0]
+@200
+-Mem
+@28
+test_leds.uut.CPU.ram_enable_read_rf
+test_leds.uut.CPU.ram_enable_read_ex
+test_leds.uut.Ram.read_en
+@22
+test_leds.uut.Ram.visR31[31:0]
+@24
+test_leds.uut.Ram.data_out[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
